@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище CarWPFModelContainer" CdmEntityContainer="CarWPFEntities">
+    <EntitySetMapping Name="Car">
+      <EntityTypeMapping TypeName="CarWPFModel.Car">
+        <MappingFragment StoreEntitySet="Car">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Stamp" ColumnName="Stamp" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Horsepower" ColumnName="Horsepower" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
